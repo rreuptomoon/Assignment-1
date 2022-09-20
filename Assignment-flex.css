@@ -110,8 +110,7 @@ a {
   height: 160px;
 }
 
-@media (max-width: 1000px) {
-  /* screen width small then 1250px use this CSS*/
+@media (max-width: 1220px) {
   .content {
     width: 90%;
   }
@@ -124,7 +123,6 @@ a {
 }
 
 @media (max-width: 600px) {
-  /* screen width small then 1250px use this CSS*/
   .content {
     width: 90%;
   }
@@ -143,7 +141,6 @@ a {
 }
 
 @media (max-width: 360px) {
-  /* screen width small then 1250px use this CSS*/
   .content {
     width: 90%;
     font-size: 13px;
