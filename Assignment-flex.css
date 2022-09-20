@@ -118,7 +118,7 @@ a {
     width: 25%;
   }
   .down ul li:nth-child(5) {
-    padding-left: 10px !important;
+    padding-left: 0px !important;
   }
 }
 
@@ -145,6 +145,12 @@ a {
   .mobile-menu {
     display: block;
     margin-right: 10px;
+  }
+  .down ul li:nth-child(3) {
+    padding-left: 0px !important;
+  }
+  .down ul li:nth-child(7) {
+    padding-left: 0px !important;
   }
 }
 
@@ -182,7 +188,7 @@ a {
     display: block;
     margin-right: 10px;
   }
-  .down ul li:nth-child(1) {
-    padding-left: 10px !important;
+  .down ul li {
+    padding-left: 0px !important;
   }
 }
