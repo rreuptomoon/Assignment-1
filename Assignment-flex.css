@@ -69,11 +69,11 @@ a {
 .L_box {
   flex: 50%;
   margin-right: 10px;
-  background-color: rgb(59, 165, 35);
+  background-color: rgb(137, 244, 249);
 }
 .R_box {
   flex: 50%;
-  background-color: rgb(59, 165, 35);
+  background-color: rgb(137, 244, 249);
 }
 .top_box img {
   width: 80px;
@@ -176,5 +176,8 @@ a {
   .mobile-menu {
     display: block;
     margin-right: 10px;
+  }
+  .down ul li:nth-child(1) {
+    padding-left: 10px !important;
   }
 }
