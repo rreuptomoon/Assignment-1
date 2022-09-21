@@ -121,11 +121,11 @@ a {
     width: 25%;
   }
   .down ul li:nth-child(5) {
-    padding-left: 0px !important;
+    padding-left: 0px;
   }
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1200px) {
   .content {
     width: 90%;
   }
@@ -149,6 +149,13 @@ a {
 
   .down ul li {
     width: 50%;
+    height: 350px;
+    max-width: 50%;
+  }
+  .down ul li:nth-child(3) {
+    padding-left: 0px !important;
+  }
+  .down ul li:nth-child(7) {
     padding-left: 0px !important;
   }
 }
@@ -185,6 +192,7 @@ a {
   }
   .down ul li {
     width: 100%;
+    max-width: 100%;
     padding-left: 0px !important;
   }
 }
