@@ -68,6 +68,10 @@ a {
   display: flex;
   margin: 40px 0;
 }
+.top_box p {
+  padding-left: 20px;
+  line-height: 50px;
+}
 .L_box {
   flex: 50%;
   color: #fff;
