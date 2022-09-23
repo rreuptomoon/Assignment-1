@@ -54,6 +54,7 @@ a {
   background-color: #365e79;
 }
 .main h1 {
+  color: #fff;
   font-size: 60px;
   text-align: center;
   line-height: 300px;
@@ -69,13 +70,15 @@ a {
 }
 .L_box {
   flex: 50%;
+  color: #fff;
   margin-right: 10px;
   margin-left: 10px;
-  background-color: #365e79;
+  background-color: #547891;
 }
 .R_box {
+  color: #fff;
   flex: 50%;
-  background-color: #365e79;
+  background-color: #547891;
 }
 .top_box img {
   width: 80px;
@@ -96,6 +99,7 @@ a {
   height: 240px;
   max-width: 25%;
   padding-left: 10px;
+  cursor: pointer;
 }
 
 .item {
@@ -128,8 +132,8 @@ a {
   right: 0px;
   text-align: center;
   line-height: 30px;
-  /* background-color: rgba(199, 199, 199, 0.873); */
-  background-color: rgba(195, 240, 140, 0.47);
+  color: #fff;
+  background-color: #54789166;
 }
 
 .title-1::before {
